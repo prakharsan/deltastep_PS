@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DeltaStep: Online learning platform</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+ 	<link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/style.css">
+ <!--<link rel="stylesheet" href="css/bootstrap1.css">-->
+    <!--<link rel="stylesheet" href="css/movingletters.css">-->
+     <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,700,900' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script>var ml = { timelines: {}};</script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    
+  </head>
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+   
+    
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+      
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <div class="site-logo mr-auto w-25"> <a href="index.html"><h1>DELTASTEP</h1></a>
+	  </div>
+
+          <div class="mx-auto text-center">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li><a href="#courses-section" class="nav-link">Partners</a></li>
+                <li><a href="#programs-section" class="nav-link">Features</a></li>
+                <li><a href="#outcomes" class="nav-link">Outcomes</a></li>
+		<li><a href="#teachers-section" class="nav-link">Team</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="ml-auto w-25">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
+                <li class="cta"><a href="#contact-section" class="nav-link">Contact Us</a></li>
+              </ul>
+            </nav>
+            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
+          </div>
+        </div>
+      </div>
+      
+    </header>
+
+    <div class="intro-section" id="home-section">
+      
+      <div class="slide-1" style="background-image: url('images/hero_1.jpg');" data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                  <h1  data-aos="fade-up" data-aos-delay="100">DELTASTEP IS AN</h1>
+    <h1 class="ml4">
+  <span class="letters letters-1">INTERACTIVE</span>
+  <span class="letters letters-2">ADAPTIVE</span>
+  <span class="letters letters-3">INDIVIDUALIZED</span>
+</h1></br></br></br>
+<h1  data-aos="fade-up" data-aos-delay="100">LEARNING PLATFORM</h1>
+
+
+<!--more-->
+
+<script>
+var ml4 = {};
+ml4.opacityIn = [0,1];
+ml4.scaleIn = [0.2, 1];
+ml4.scaleOut = 3;
+ml4.durationIn = 800;
+ml4.durationOut = 600;
+ml4.delay = 500;
+ml.timelines["ml4"] = anime.timeline({loop: true})
+  .add({
+    targets: '.ml4 .letters-1',
+    opacity: ml4.opacityIn,
+    scale: ml4.scaleIn,
+    duration: ml4.durationIn
+  }).add({
+    targets: '.ml4 .letters-1',
+    opacity: 0,
+    scale: ml4.scaleOut,
+    duration: ml4.durationOut,
+    easing: "easeInExpo",
+    delay: ml4.delay
+  }).add({
+    targets: '.ml4 .letters-2',
+    opacity: ml4.opacityIn,
+    scale: ml4.scaleIn,
+    duration: ml4.durationIn
+  }).add({
+    targets: '.ml4 .letters-2',
+    opacity: 0,
+    scale: ml4.scaleOut,
+    duration: ml4.durationOut,
+    easing: "easeInExpo",
+    delay: ml4.delay
+  }).add({
+    targets: '.ml4 .letters-3',
+    opacity: ml4.opacityIn,
+    scale: ml4.scaleIn,
+    duration: ml4.durationIn
+  }).add({
+    targets: '.ml4 .letters-3',
+    opacity: 0,
+    scale: ml4.scaleOut,
+    duration: ml4.durationOut,
+    easing: "easeInExpo",
+    delay: ml4.delay
+  }).add({
+    targets: '.ml4',
+    opacity: 0,
+    duration: 500,
+    delay: 500
+  });
+</script>
+
+<style>
+.ml4 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4.5em;
+}
+.ml4 .letters {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  top: 0.3em;
+  right: 0;
+  opacity: 0; 
+}
+</style>
+
+
+  </div>
+
+		</h1>
+                
+		 
+
+                <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="500">
+                  <form action="" method="post" class="form-box">
+                    <h3 class="h4 text-black mb-4">LOGIN</h3>
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Email Addresss">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <!--<div class="form-group mb-4">
+                      <input type="password" class="form-control" placeholder="Re-type Password">
+                    </div>-->
+                    <div class="form-group">
+                      <input type="submit" class="btn btn-primary btn-pill" value="Sign in&nbsp&nbsp&nbsp"></br></br> 
+		      <input type="submit" class="btn btn-primary btn-pill" value="Register">
+                    </div>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="site-section courses-title" id="courses-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay="">
+            <h2 class="section-title">Partners</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-section courses-entry-wrap"  data-aos="fade-up" data-aos-delay="100">
+      <div class="container">
+        <div class="row">
+
+          <div class="owl-carousel col-12 nonloop-block-14">
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="course-single.html"><img src="images/nlds.png" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+                
+            
+             
+               
+              </div>
+              
+            </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="course-single.html"><img src="images/smsk.png" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+            
+               
+                
+                
+              </div>
+              
+            </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="course-single.html"><img src="images/gfs.png" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+              
+                
+                
+             
+              </div>
+              
+            </div>
+
+
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="course-single.html"><img src="images/new_school_8.png" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+              
+                
+                
+                
+              </div>
+              
+            </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="course-single.html"><img src="images/new_school_5.png" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+                
+               
+                
+              </div>
+              <div class="d-flex border-top stats">
+               
+              </div>
+            </div>
+
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="course-single.html"><img src="images/new_school_4.png" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+              
+               
+              </div>
+              <div class="d-flex border-top stats">
+                
+              </div>
+            </div>
+
+          </div>
+
+         
+
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-7 text-center">
+            <button class="customPrevBtn btn btn-primary m-1">Prev</button>
+            <button class="customNextBtn btn btn-primary m-1">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="site-section bg-image overlay" style="background-image: url('images/hero_1.jpg');">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-8 text-center testimony">
+            
+	<h2 class="section-title" style="color:white;">About Us</h2>
+	<iframe width="560" height="315"src="https://www.youtube.com/embed/Sr8dKwV-knw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></br></br>
+
+<p style="color:white";>We at DeltaStep understand that just like every child has a unique face, unique fingerprint; she has a unique learning ability as well. Hence, DeltaStep is an interactive, adaptive and highly personalized learning platform that enables the student to learn anytime, anywhere - at her own pace and in her own style.  </p> 
+
+                    <p style="color:white";>Watch this video to know how our innovative solution is changing the education paradigm.</p>
+
+
+	  
+	
+          </div>
+        </div>
+      </div>
+    </div>
+   <div class="site-section" id="programs-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-lg-7 text-center"  data-aos="fade-up" data-aos-delay="">
+            <h2 class="section-title">Features</h2>
+            <p>Through it's innovative and unique features, DeltaStep combines the best of both the worlds, classroom learning and self study</p>
+          </div>
+        </div>
+        <div class="row mb-5 align-items-center">
+          <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/vidlec.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="text-black mb-4"> Engaging Lectures</h2>
+            <p class="mb-4">Enquiry based learning through real life applications; brings about conceptual clarity and creates interest.</p>
+
+           
+
+          </div>
+        </div>
+
+        <div class="row mb-5 align-items-center">
+          <div class="col-lg-7 mb-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/vidlectool.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-4 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="text-black mb-4">Powerful video tools</h2>
+            <p class="mb-4">Speed up or slow down the video; change the camera options</p>
+
+            
+          </div>
+        </div>
+
+        <div class="row mb-5 align-items-center">
+          <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/interact.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="text-black mb-4">Interactive Lectures</h2>
+            <p class="mb-4">Periodic questions asked in a timed manner to measure understanding and attentiveness.</p>
+
+            
+          </div>
+        </div>
+
+    <div class="row mb-5 align-items-center">
+          <div class="col-lg-7 mb-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/activities-icon-24.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-4 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="text-black mb-4">Cross-curricular linking</h2>
+            <p class="mb-4">E-library of concepts and cross-linking of earlier concepts as instant references</p>
+
+            
+          </div>
+        </div>
+
+ <div class="row mb-5 align-items-center">
+          <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/download.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="text-black mb-4">Games and Simulations</h2>
+            <p class="mb-4">Play your way through difficult concepts by playing games mapped to the school curriculum.</p>
+
+            
+          </div>
+        </div>
+
+ <div class="row mb-5 align-items-center">
+          <div class="col-lg-7 mb-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/penscale.png" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-4 mr-auto order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="text-black mb-4">Adaptive Practice Modules</h2>
+            <p class="mb-4">The difficulty level of the next question depends on the response to the current one ensuring that the student progresses in an order of difficulty</p>
+
+            
+          </div>
+        </div>
+
+<div class="row mb-5 align-items-center">
+          <div class="col-lg-7 mb-5" data-aos="fade-up" data-aos-delay="100">
+            <img src="images/img_cc.svg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-4 ml-auto" data-aos="fade-up" data-aos-delay="200">
+            <h2 class="text-black mb-4">Round the clock support</h2>
+            <p class="mb-4">Proactive doubt-detecting intelligence with prompt, tailor-made doubt-clearing mechanism.</p>
+
+            
+          </div>
+        </div>
+
+      </div>
+    </div>  
+	
+                     </div>
+                   </div>
+                 </div> 
+				 
+				 
+               </div>      
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+    <div class="site-section" id="teachers-section">
+      <div class="container">
+
+        <div class="row mb-5 justify-content-center">
+          <div class="col-lg-7 mb-5 text-center"  data-aos="fade-up" data-aos-delay="">
+            <h2 class="section-title">Meet our team</h2>
+            <p class="mb-5">At DeltaStep, a group of passionate individuals from eminent institutions from India and abroad are committed to equip the next generations of children to solve the problems of the future.</p>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="teacher text-center">
+              <img src="images/person_1.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">Rahul Singhal</h3>
+                <p class="position">Managing Director</p>
+                <p>IIM Ahmedabad, Indian Statistical Institute, Presidency College, The Doon School</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="teacher text-center">
+              <img src="images/person_2.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">Prakhar Sankrityayan</h3>
+                <p class="position">Intern</p>
+                <p>Apeejay School, BITS Pilani Goa Campus (Biological Sciences + Electronics and Communiation Engineering)</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="teacher text-center">
+              <img src="images/person_3.jpg" alt="Image" class="img-fluid w-50 rounded-circle mx-auto mb-4">
+              <div class="py-2">
+                <h3 class="text-black">Adesh Pradhan</h3>
+                <p class="position">Intern</p>
+                <p>Army Pulic School, BITS Pilani Hyderabad Campus (Economics + Computer Science Engineering)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section bg-image overlay" style="background-image: url('images/hero_1.jpg');">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-8 text-center testimony">
+            
+	<span class="fa fa-users fa-3x text-success"></span> <p style="color:white;">200000 Users</p>
+	<span class="fa fa-university fa-3x text-success"></span> <p style="color:white;">500 Schools</p>
+	<span class="fa fa-video-camera fa-3x text-success"></span> <p style="color:white;">5000 Videos</p>
+	<span class="fa fa-puzzle-piece fa-3x text-success"></span> <p style="color:white;">1000000 Questions</p>
+	
+	  
+	
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section pb-0">
+
+      <div class="future-blobs">
+        <div class="blob_2">
+          <img src="images/blob_2.svg" alt="Image">
+        </div>
+        <div class="blob_1">
+          <img src="images/blob_1.svg" alt="Image">
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mb-5 justify-content-center" data-aos="fade-up" data-aos-delay="">
+          <div class="col-lg-7 text-center">
+            <h2 class="section-title">Why Choose Us</h2>
+          </div>
+        </div>
+        <div class="row">
+          <table border="1" cellpadding="20" style="color:black;" >
+  <tr>
+    <th  bgcolor="#00d999">Students</th>
+    <th bgcolor="#00d999">Parents</th>
+    <th bgcolor="#00d999">Teachers</th>
+    <th bgcolor="#00d999">Schools</th>
+  </tr>
+  <tr>
+    <td>Engaged Learners</td>
+    <td>Real-Time Performance Tracking</td>
+    <td>Happier Students</td>
+    <td>Real-Time Performance Tracking</td>
+    
+    
+    
+    
+  </tr>
+  <tr>
+    <td>Better Retention</td>
+    <td>Regular Feedback</td>
+    <td>Engaged Classrooms</td>
+    <td>Reduced Administrative Burden</td>
+    
+  </tr>
+  <tr>
+    <td>Self paced Learning</td>
+    <td>Better Results</td>
+    <td>Real-Time Performance Tracking</td>
+    <td>Improved Performance</td>
+    
+  </tr>
+  <tr>
+    <td>Conceptual Clarity</td>
+    <td>Happier Kids</td>
+    <td>Reduced Admistrative Burden</td>
+    <td>Brand Building</td>
+  </tr>
+  <tr>
+    <td>Higher Order Thinking</td>
+    <td>Stress-free Homes</td>
+    <td>Maximized CLassroom Attention</td>
+    <td>Happy Stakeholders</td>
+  </tr>
+  <tr>
+    
+     <td>Improved Performance</td>
+    <td>Value for Money</td>
+    <td>Better Results</td>
+    <td>Improved fees and admissions</td>
+  </tr>
+
+  <tr>
+	<td bgcolor="#00d999" ><a href="https://app.deltastep.com/register">Start Learning Now!</a></td>
+	<td bgcolor="#00d999"><a href="https://app.deltastep.com/register">Empower Your Child Now!</a></td>
+	<td bgcolor="#00d999"><a href="https://app.deltastep.com/register">Empower Your Classroom Now!</a></td>
+	<td bgcolor="#00d999"><a href="https://app.deltastep.com/register">Empower Your School Now!</a></td>
+</table>
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+
+    
+
+
+
+    <div class="site-section bg-light" id="contact-section">
+      <div class="container">
+
+        <div class="row justify-content-center">
+          <div class="col-md-7">
+
+
+            
+            <h2 class="section-title mb-3" align="center">Message Us</h2>
+            <p class="mb-5">Fill in the form to get in touch with us.</p>
+          
+            <form method="post" data-aos="fade">
+              <div class="form-group row">
+                <div class="col-md-6 mb-3 mb-lg-0">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Last name">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="text" class="form-control" placeholder="Subject">
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <input type="email" class="form-control" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="col-md-12">
+                  <textarea class="form-control" id="" cols="30" rows="10" placeholder="Write your message here."></textarea>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <div class="col-md-6">
+                  
+                  <input type="submit" class="btn btn-primary py-3 px-5 btn-block btn-pill" value="Send Message">
+                </div>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+     
+    <footer class="footer-section bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>About DeltaStep</h3>
+            <p>We at DeltaStep understand that just like every child has a unique face, unique fingerprint; she has a unique learning ability as well. Hence, DeltaStep is an interactive, adaptive and highly personalized learning platform that enables the student to learn anytime, anywhere - at her own pace and in her own style.</p>
+          </div>
+
+          <div class="col-md-3 ml-auto">
+            <h3>Links</h3>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#courses-section">Partners</a></li>
+              <li><a href="#programs-section">Features</a></li>
+              <li><a href="#teachers-section">Team</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h3>Subscribe</h3>
+            <p>Subscribe to receive daily newsletter</p>
+            <form action="#" class="footer-subscribe">
+              <div class="d-flex mb-5">
+                <input type="text" class="form-control rounded-0" placeholder="Email">
+                <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+            <p>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+
+  
+    
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+  
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
